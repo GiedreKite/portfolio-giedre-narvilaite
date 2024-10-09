@@ -21,12 +21,12 @@ export default function App() {
         <BrowserRouter>
           <Routes>
 
-            <Route path='/' element={ <MainPage /> }></Route>
-            <Route path='/contact' element={ <Contact /> }></Route>
-            <Route path='/about' element={ <About /> }></Route>
-            <Route path='/project' element={ <Project /> }></Route>
-            <Route path='/education' element={ <Education /> }></Route>
-            <Route path='/work' element={ <Work /> }></Route>
+            <Route path='/portfolio-giedre-narvilaite/' element={ <MainPage /> }></Route>
+            <Route path='/portfolio-giedre-narvilaite/contact' element={ <Contact /> }></Route>
+            <Route path='/portfolio-giedre-narvilaite/about' element={ <About /> }></Route>
+            <Route path='/portfolio-giedre-narvilaite/project' element={ <Project /> }></Route>
+            <Route path='/portfolio-giedre-narvilaite/education' element={ <Education /> }></Route>
+            <Route path='/portfolio-giedre-narvilaite/work' element={ <Work /> }></Route>
 
 
           </Routes>

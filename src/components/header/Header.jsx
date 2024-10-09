@@ -41,17 +41,17 @@ export default function Header() {
 
       </div>
 
-      <Link to="/" className={ style.link }>{ translations[language].home }</Link>
+      <Link to="/portfolio-giedre-narvilaite/" className={ style.link }>{ translations[language].home }</Link>
 
-      <Link to="/contact" className={ style.link }>{ translations[language].contact }</Link>
+      <Link to="/portfolio-giedre-narvilaite/contact" className={ style.link }>{ translations[language].contact }</Link>
 
-      <Link to="/about" className={ style.link }>{ translations[language].about }</Link>
+      <Link to="/portfolio-giedre-narvilaite/about" className={ style.link }>{ translations[language].about }</Link>
 
-      <Link to="/project" className={ style.link }>{ translations[language].projects }</Link>
+      <Link to="/portfolio-giedre-narvilaite/project" className={ style.link }>{ translations[language].projects }</Link>
 
-      <Link to="/education" className={ style.link }>{ translations[language].education }</Link>
+      <Link to="/portfolio-giedre-narvilaite/education" className={ style.link }>{ translations[language].education }</Link>
 
-      <Link to="/work" className={ style.link }>{ translations[language].workplaces }</Link>
+      <Link to="/portfolio-giedre-narvilaite/work" className={ style.link }>{ translations[language].workplaces }</Link>
 
 
       {/* Buttons to toggle theme */ }
