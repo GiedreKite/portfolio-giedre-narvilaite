@@ -1,0 +1,170 @@
+/* main{
+    background: url(http://localhost:5173/back.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    height: 100%;
+} */
+main {
+  padding-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  /* Align items vertically center */
+  gap: 20px;
+  /* Space between image and text */
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  /* Flexbox layout for placing image and text side by side */
+  align-items: center;
+  /* Align items vertically center */
+  gap: 20px;
+  /* Space between image and text */
+  padding: 20px;
+}
+
+
+.textConteiner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.textY {
+  font-size: 2rem;
+  padding: 2rem;
+}
+
+.textG {
+  font-size: 2rem;
+  padding: 2rem;
+}
+
+.textY:hover {
+  color: yellow;
+  box-shadow: 0 5px 4px -4px yellow;
+  background: rgba(0, 0, 0, 0.222);
+  backdrop-filter: blur(1000px);
+  border-radius: 10%;
+}
+
+.textG:hover {
+  color: #4CAF50;
+  background: rgba(254, 254, 254, 0.222);
+  backdrop-filter: blur(1000px);
+  border-radius: 10%;
+  box-shadow: 0 5px 4px -4px #4CAF50;
+
+
+}
+
+.containerMe {
+  padding-top: 3rem;
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+
+
+.welcome {
+  font-family: "Signika Negative", sans-serif;
+  color: yellow;
+  padding: 2rem;
+}
+
+.description {
+  font-family: "Signika Negative", sans-serif;
+  color: #4CAF50;
+  padding: 2rem;
+}
+
+
+
+.img {
+  flex: 1;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.text {
+  flex: 2;
+}
+
+.text h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.text-container p {
+  font-size: 8rem;
+  justify-content: space-around;
+  word-spacing: 2rem;
+}
+
+
+.aline {
+  display: flex;
+
+}
+
+
+.slidein {
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: 3;
+  animation-direction: alternate;
+}
+
+@keyframes slidein {
+  from {
+    translate: 150vw 0;
+    scale: 200% 1;
+  }
+}
+
+
+@media (max-width: 1200px) {
+  p {
+    font-size: 1.5rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .img {
+    max-height: 50%;
+  }
+}
+
+
+
+@media (max-width: 768px) {
+  p {
+    font-size: 1.5rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+}
+
+@media (max-width: 368px) {
+  p {
+    font-size: 1rem;
+  }
+
+  h1 {
+    font-size: 1rem;
+  }
+}

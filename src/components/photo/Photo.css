@@ -1,0 +1,25 @@
+.fade-in {
+    max-height: 350px;
+    max-width: 350px;
+    border-radius: 10%;
+    opacity: 0;
+    transition: opacity 5s ease-in; /* Adjust the timing for slower/faster effect */
+    border: 2px solid #fff;  /* White border around the image */
+  border-radius: 10px;     /* Optional, for rounded corners */
+  box-shadow: 10px 10px 30px rgba(255, 255, 255, 0.5);
+  }
+  
+  .fade-in.visible {
+    opacity: 1;
+  }
+
+  .fade-in:hover{
+    border: 2px solid  #4caf4f83;
+    box-shadow: 10px 10px 30px  #4caf4f83;
+  }
+  @media (max-width: 1200px) {
+    .fade-in{
+      max-height: 200px;
+      max-width:  200px;
+    }
+  }

@@ -1,0 +1,128 @@
+/* @font-face {
+    font-family: "MyFont";
+    src: url(./SellenaBrush-x3JyK.ttf)
+} */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    padding-top: 3rem;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.section1 {
+
+    color: black;
+    min-height: 100vh;
+    padding: 3rem;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.card {
+    height: 28rem;
+    width: 28rem;
+
+    position: relative;
+
+    perspective: 90rem;
+}
+
+
+.cb,
+.cf {
+    border: 1px solid #4CAF50;
+    height: 28rem;
+    width: 28rem;
+    border-radius: 20px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    backface-visibility: hidden;
+    box-shadow: 0 0 0 2px white, 0 0 0 4px rgba(255, 255, 0, 0.612);
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-family: 'MyFont';
+    font-size: 2rem;
+    font-weight: 900;
+    padding: 2rem;
+
+    transition: all 0.99s ease;
+
+}
+
+.cf {
+    background: rgba(0, 0, 0, 0.144);
+    /* background-image: linear-gradient(to right, rgba(255, 255, 0, 0.126), #4caf4f20); */
+    backdrop-filter: blur(100px);
+    box-shadow: 0 8px 32px rgba(255, 255, 0, 0.447);
+
+    color: #4CAF50;
+
+
+}
+
+.cb {
+    background-color: black;
+    transform: rotateY(180deg);
+    color: yellow;
+
+}
+
+.card:hover .cf {
+    transform: rotateY(180deg);
+    color: yellow;
+
+}
+
+.card:hover .cb {
+    transform: rotateY(0deg);
+
+}
+
+@media (max-width: 1200px) {
+
+    .card,
+    .cf,
+    .cb {
+        height: 28rem;
+        width: 28rem;
+    }
+
+    .section1 {
+        padding: 2rem;
+        gap: 2rem;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+
+    .card,
+    .cf,
+    .cb {
+        height: 20rem;
+        width: 20rem;
+        font-size: 1rem;
+    }
+
+    .section1 {
+        padding: 2rem;
+        gap: 2rem;
+    }
+}

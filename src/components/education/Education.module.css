@@ -1,0 +1,301 @@
+.head {
+  padding-top: 2rem;
+  margin-top: 10rem;
+  position: 1;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.textConteiner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.text {
+
+  font-size: 1rem;
+  padding-right: 2rem;
+  margin: 1rem;
+}
+
+
+
+
+.aline {
+  display: flex;
+
+}
+
+.photo {
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+}
+
+.slidein {
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: 3;
+  animation-direction: alternate;
+}
+
+
+.timeline {
+  position: relative;
+  width: auto;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+.timelineItem {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.timelineItem .left .timelineContent {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.timelineItem .right .timelineContent {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.timelineContent {
+  display: flex;
+  position: relative;
+  width: 100%;
+  align-items: center;
+}
+
+.timelineLeft {
+  text-align: right;
+  padding-right: 5px;
+
+  padding-right: 2rem;
+}
+
+.timelineRight {
+  text-align: left;
+  padding-left: 5px;
+
+
+}
+
+.timelineItem .timelineDate {
+  font-size: 1rem;
+
+  margin-bottom: 5px;
+  padding-right: 2rem;
+  margin: 1rem;
+}
+
+.timelineCircle {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  width: 10px;
+  height: 10px;
+  background-color: transparent;
+  border-radius: 50%;
+  z-index: 1;
+  box-shadow: 0 0 0 1px transparent, 0 0 0 2px transparent;
+}
+
+.timeline:before {
+  content: "";
+  position: absolute;
+  left: 30%;
+  top: 0;
+  transform: translateX(-50%);
+  height: 100%;
+  width: 2px;
+  background-color: transparent;
+  z-index: 0;
+}
+
+.timeline h3,
+.timeline h4,
+.timeline p {
+  font-family: "Signika Negative", sans-serif;
+
+
+}
+
+.timeline h3 {
+  font-size: 1rem;
+  margin-bottom: 5px;
+  padding-right: 2rem;
+  margin: 1rem;
+}
+
+.timeline h4 {
+  font-size: 1rem;
+
+  padding-right: 2rem;
+  margin: 1rem;
+}
+
+.timeline p {
+  font-size: 1rem;
+
+  padding: 1rem;
+  margin: 1rem;
+
+
+  .button {
+    padding: 1rem;
+    background-color: transparent;
+    border: none;
+    font-size: 1rem;
+    font-family: "Signika Negative", sans-serif;
+  }
+
+  .link:focus,
+  .link:hover {
+    color: #4CAF50 !important;
+    border: none;
+    box-shadow: 0 8px 10px -2px #4caf4fae;
+  }
+
+  .timelineRight:focus,
+  .timelineRight:hover {
+    background: rgba(254, 254, 254, 0.222);
+    backdrop-filter: blur(1000px) !important;
+    border-radius: 10%;
+    box-shadow: 0 5px 4px -4px #4CAF50 !important;
+  }
+
+}
+
+.link {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  color: #4CAF50;
+  text-decoration: none !important;
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none !important;
+  gap: 3rem;
+  padding-right: 3rem;
+  font-size: 1rem;
+
+}
+
+@media (min-width: 768px) {
+  .timelineItem {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .button {
+    font-size: 2rem;
+  }
+
+  .timeline:before {
+    content: "";
+    position: absolute;
+    left: 30%;
+    top: 0;
+    transform: translateX(-50%);
+    height: 100%;
+    width: 2px;
+    background-color: #4CAF50;
+    z-index: 0;
+    margin-right: 20px;
+    margin: 0;
+  }
+
+  .timelineCircle {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 20px;
+    background-color: #4CAF50;
+    border-radius: 50%;
+    z-index: 1;
+    box-shadow: 0 0 0 1px white, 0 0 0 2px #4CAF50;
+  }
+
+  .timelineLeft {
+    text-align: center;
+    margin: 0.5rem;
+    width: 30%;
+  }
+
+  .timelineRight {
+    text-align: center;
+    padding: 0.5rem;
+    width: 70%;
+  }
+
+  .timelineContent {
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .timeline h4 {
+    font-size: 1.5rem;
+
+    padding-right: 2rem;
+    margin: 1rem;
+  }
+
+  .timeline p {
+    font-size: 1.65rem;
+
+    padding: 1rem;
+    margin: 1rem;
+
+  }
+
+  .text {
+
+    font-size: 1.5rem;
+    padding-right: 2rem;
+    margin: 1rem;
+  }
+
+  .timeline h3 {
+    font-size: 2rem;
+    margin-bottom: 5px;
+    padding: 2rem;
+    margin: 1rem;
+  }
+
+  .timeline {
+    position: relative;
+    width: auto;
+    margin: 2rem;
+    padding: 3rem 0;
+  }
+
+
+  .timelineRight:focus,
+  .timelineRight:hover {
+    background: rgba(254, 254, 254, 0.222);
+    backdrop-filter: blur(1000px) !important;
+    border-radius: 10%;
+    box-shadow: 0 3px 2px -2px #4CAF50 !important;
+  }
+}
