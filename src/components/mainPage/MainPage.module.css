@@ -122,12 +122,20 @@ body {
   }
 }
 
+@media (max-width: 1200px) {
+  .bouncingPhoto {
+    width: 150px;
+    height: 150px;
+  }
+}
+
 @media (max-width: 768px) {
 
   .welcome {
     font-size: 0.5rem;
     /* Adjust font size for small screens */
-    padding: 1rem;
+    padding-right: 2rem;
+    margin-right: 2rem;
   }
 
   .description {
@@ -135,11 +143,4 @@ body {
     padding: 1rem;
   }
 
-}
-
-@media (max-width: 1200px) {
-  .bouncingPhoto {
-    width: 150px;
-    height: 150px;
-  }
 }

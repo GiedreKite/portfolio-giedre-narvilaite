@@ -67,7 +67,10 @@ export default function About() {
       </div>
 
       <div className={ `highlight-text ${theme === 'light' ? 'light-text' : 'dark-textg'}` }>
-        <h1 className={ `text ${visible ? 'slide-in-right' : 'hidden'}` }>{ translations[language].aboutMe }</h1>
+        <div className={ style.center }>
+          <h1 className={ `text ${visible ? 'slide-in-right' : 'hidden'}` }>{ translations[language].aboutMe }</h1>
+
+        </div>
       </div>
       <div className={ style.container }>
 

@@ -35,5 +35,6 @@
 /* Slide-in class for triggering the animation */
 .slide-in-right {
   animation: slideInRight 1s ease-out forwards;
+  flex-wrap: wrap;
   /* Adjust duration and timing */
 }

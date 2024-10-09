@@ -5,6 +5,11 @@
     background-size: cover;
     height: 100%;
 } */
+.center {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 main {
   padding-top: 3rem;
   display: flex;
@@ -22,9 +27,9 @@ main {
   /* Flexbox layout for placing image and text side by side */
   align-items: center;
   /* Align items vertically center */
-  gap: 20px;
+  gap: 1rem;
   /* Space between image and text */
-  padding: 20px;
+  padding: 1rem;
 }
 
 
@@ -157,6 +162,17 @@ main {
     font-size: 1.5rem;
   }
 
+  .textY,
+  .textG {
+    font-size: 0.5rem;
+    padding: 0.25rem;
+  }
+
+  .container {
+    gap: 0.15rem;
+    padding: 0.15rem;
+  }
+
 }
 
 @media (max-width: 368px) {
@@ -166,5 +182,10 @@ main {
 
   h1 {
     font-size: 1rem;
+  }
+
+  .container {
+    gap: 0.15rem;
+    padding: 0.15rem;
   }
 }
