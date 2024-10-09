@@ -1,2 +1,2 @@
-# Giedrė Narvilaitė Portfolio
+# Giedrė Narvilaitė portfolio-giedre-narvilaite
 

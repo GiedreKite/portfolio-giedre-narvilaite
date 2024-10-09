@@ -25,12 +25,12 @@ export default function App() {
         <BrowserRouter>
           <Routes>
 
-            <Route path='/portfolio/' element={ <MainPage /> }></Route>
-            <Route path='/portfolio/contact' element={ <Contact /> }></Route>
-            <Route path='/portfolio/about' element={ <About /> }></Route>
-            <Route path='/portfolio/project' element={ <Project /> }></Route>
-            <Route path='/portfolio/education' element={ <Education /> }></Route>
-            <Route path='/portfolio/work' element={ <Work /> }></Route>
+            <Route path='/portfolio-giedre-narvilaite/' element={ <MainPage /> }></Route>
+            <Route path='/portfolio-giedre-narvilaite/contact' element={ <Contact /> }></Route>
+            <Route path='/portfolio-giedre-narvilaite/about' element={ <About /> }></Route>
+            <Route path='/portfolio-giedre-narvilaite/project' element={ <Project /> }></Route>
+            <Route path='/portfolio-giedre-narvilaite/education' element={ <Education /> }></Route>
+            <Route path='/portfolio-giedre-narvilaite/work' element={ <Work /> }></Route>
 
 
           </Routes>

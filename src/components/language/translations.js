@@ -46,7 +46,7 @@ const translations = {
       "I hope my introduction helped us get to know each other better and will encourage further cooperation.",
 
     edu: "Below you will find information about my education.",
-    edu1: "I got some experience with: HTML, CSS, Javascript, ReactJs, ExpressJs and MySQL. Using these skills, I have created this personal portfolio where I share the projects I have created.",
+    edu1: "I got some experience with: HTML, CSS, Javascript, ReactJs, ExpressJs and MySQL. Using these skills, I have created this personal portfolio-giedre-narvilaite where I share the projects I have created.",
     edu2: "I acquired a solid foundation in financial analysis and learned to use professional programs effectively. Thanks to these skills, I successfully secured a job that aligns with my field of expertise.",
     edu3: "I studied at a prestigious high school, where high-level teachers work, helping to develop strong, responsible and well-prepared students.",
 
@@ -129,7 +129,7 @@ const translations = {
       "Tikiuosi, mano prisistatymas padėjo mums geriau vieniems kitus pažinti ir skatins tolesnį bendradarbiavimą.",
 
     edu: "Žemiau rasite informaciją apie mano išsilavinimą",
-    edu1: "Įgavau patirties su: HTML, CSS, Javascript, ReactJs, ExpressJs ir MySQL. Pasitelkdama šiuos įgūdžius, sukūriau šį asmeninį portfolio, kuriame dalinuosi savo sukurtais projektais.",
+    edu1: "Įgavau patirties su: HTML, CSS, Javascript, ReactJs, ExpressJs ir MySQL. Pasitelkdama šiuos įgūdžius, sukūriau šį asmeninį portfolio-giedre-narvilaite, kuriame dalinuosi savo sukurtais projektais.",
     edu2: "Įgijau tvirtus finansų analizės pagrindus ir išmokau efektyviai naudotis profesinėmis programomis. Šių įgūdžių dėka sėkmingai radau darbą, atitinkantį mano specialybę.",
     edu3: "Mokiausi prestižinėje gimnazijoje, kurioje dirba aukšto lygio mokytojai, padedantys ugdyti stiprius, atsakingus ir puikiai pasiruošusius moksleivius.",
 

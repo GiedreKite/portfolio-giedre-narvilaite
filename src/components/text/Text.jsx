@@ -13,7 +13,7 @@ const Text = () => {
 
   return (
     <div className={ `text ${visible ? 'slide-in' : 'hidden'}` }>
-      <h1>Welcome to My Portfolio</h1>
+      <h1>Welcome to My portfolio-giedre-narvilaite</h1>
       <p>This text will slide in from the left!</p>
     </div>
   );
