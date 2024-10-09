@@ -19,7 +19,6 @@ body {
   padding-top: 5rem;
   padding-bottom: 0;
   margin: 5rem;
-  width: auto;
   height: auto;
   display: flex;
   align-items: center;
@@ -167,7 +166,7 @@ p {
 
   .name {
     font-size: 1.55rem;
-    margin: 2rem;
+
   }
 
   .name:hover {
@@ -196,6 +195,6 @@ p {
 
   .name {
     font-size: 0.75rem;
-    margin: 2rem;
+
   }
 }

@@ -188,4 +188,10 @@ main {
     gap: 0.15rem;
     padding: 0.15rem;
   }
+
+  .textY,
+  .textG {
+    font-size: 0.5rem;
+    padding: 0.25rem;
+  }
 }

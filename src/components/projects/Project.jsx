@@ -38,9 +38,9 @@ export default function Project() {
    return <>
       <Header />
       <main className={ `page ${theme}` }>
-         <div>
-            <h2 className={ style.name }>{ translations[language].pro }</h2>
-         </div>
+
+         <h2 className={ style.name }>{ translations[language].pro }</h2>
+
 
 
 

@@ -50,7 +50,7 @@ const translations = {
     edu2: "I acquired a solid foundation in financial analysis and learned to use professional programs effectively. Thanks to these skills, I successfully secured a job that aligns with my field of expertise.",
     edu3: "I studied at a prestigious high school, where high-level teachers work, helping to develop strong, responsible and well-prepared students.",
 
-    work: "",
+    work0: "Below you will find information about my previous jobs and the skills I acquired there that contributed to my professional growth.",
     work1: "Financial analyst",
     work2:
       "Creation of a business plan, preparation of budgets for the following year, preparation of loan and investment reports and their analysis. I had to learn how to use the Uipath program and create a robot for extracting information. My knowledge was applied, I created a robot for another department as well.",
@@ -133,7 +133,7 @@ const translations = {
     edu2: "Įgijau tvirtus finansų analizės pagrindus ir išmokau efektyviai naudotis profesinėmis programomis. Šių įgūdžių dėka sėkmingai radau darbą, atitinkantį mano specialybę.",
     edu3: "Mokiausi prestižinėje gimnazijoje, kurioje dirba aukšto lygio mokytojai, padedantys ugdyti stiprius, atsakingus ir puikiai pasiruošusius moksleivius.",
 
-    work: "",
+    work0: "Žemiau rasite informaciją apie mano ankstesnes darbovietes ir jose įgytus įgūdžius, kurie prisidėjo prie mano profesinio augimo.",
     work1: "Finansų analitikė",
     work2:
       "Verslo plano kūrimas, kitų metų biudžetų rengimas, paskolų ir investicijų ataskaitų rengimas ir jų analizė. Teko išmokti naudotis Uipath programa ir sukurti informacijos išgavimo robotą. Pritaikiau savo žinias, Sukūriau robotą ir kitam skyriui.",

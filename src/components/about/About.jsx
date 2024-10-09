@@ -57,10 +57,10 @@ export default function About() {
     <main className={ `page ${theme}` }>
       <div className={ style.containerMe }>
         <div className={ `highlight-text ${theme === 'light' ? 'light-text' : 'dark-textg'}` }>
-          <h3 className={ `text ${visible ? 'slide-in-left' : 'hidden'}` }>{ translations[language].name }</h3>
+          <p className={ `text ${visible ? 'slide-in-left' : 'hidden'}` }>{ translations[language].name }</p>
         </div>
         <div className={ `highlight-text ${theme === 'light' ? 'light-text' : 'dark-texty'}` }>
-          <h3 className={ `text ${visible ? 'slide-in-right' : 'hidden'}` }>Giedrė Narvilaitė</h3>
+          <p className={ `text ${visible ? 'slide-in-right' : 'hidden'}` }>Giedrė Narvilaitė</p>
         </div>
         { !isMobile && (<Photo src={ photo } alt="My Photo" />) }
 
@@ -68,7 +68,7 @@ export default function About() {
 
       <div className={ `highlight-text ${theme === 'light' ? 'light-text' : 'dark-textg'}` }>
         <div className={ style.center }>
-          <h1 className={ `text ${visible ? 'slide-in-right' : 'hidden'}` }>{ translations[language].aboutMe }</h1>
+          <p className={ `text ${visible ? 'slide-in-right' : 'hidden'}` }>{ translations[language].aboutMe }</p>
 
         </div>
       </div>
