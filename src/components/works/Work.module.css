@@ -1,5 +1,5 @@
 .head {
-  padding-top: 2rem;
+  padding-top: 4rem;
   margin: 0.5rem;
   margin-top: 3rem;
 
@@ -207,7 +207,7 @@
   }
 
   .head {
-    margin: 1rem;
+    margin: 2rem;
     padding: 1rem;
     flex-wrap: wrap;
   }
@@ -316,7 +316,7 @@
   }
 
   .head {
-    margin: 0.5rem;
+    margin: 4rem;
     padding: 0.5rem;
     flex-wrap: wrap;
   }

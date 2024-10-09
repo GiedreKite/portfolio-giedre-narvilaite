@@ -66,10 +66,7 @@ export default function MainPage() {
           { !isMobile && <img className={ style.bouncingPhoto } src={ logo } alt="logo" /> }
         </div>
 
-        <div className={ `highlight-text ${theme === 'light' ? 'light-text' : 'dark-texty'}` }>
 
-          <h1 className={ `text ${visible ? 'slide-in-left' : 'hidden'}` }>{ translations[language].welcome }</h1>
-        </div>
         <div className={ `highlight-text ${theme === 'light' ? 'light-text' : 'dark-textg'}` }>
           <h1 className={ `text ${visible ? 'slide-in-right' : 'hidden'}` }>{ translations[language].description }</h1>
         </div>

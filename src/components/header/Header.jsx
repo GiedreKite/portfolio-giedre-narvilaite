@@ -37,7 +37,7 @@ export default function Header() {
   return (
     <header className={ `header ${theme}` }>
       <div >
-        { !isMobile && (<img className={ style.img } src={ theme === 'light' ? logoL : logo } alt="logo" />) }
+        { !isMobile && (<img className={ style.img } src={ theme === 'light' ? logoL : logoL } alt="logo" />) }
 
       </div>
 

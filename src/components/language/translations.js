@@ -15,9 +15,9 @@ const translations = {
     footerb:
       "If you smile when you are alone, then you really mean it. - Andy Rooney",
 
-    welcome: "Welcome",
+    welcome: "",
     description:
-      "to my creative world! Every project here is part of my journey, and I'm glad you're a part of it now.",
+      " Welcome to my creative world! Every project here is part of my journey, and I'm glad you're a part of it now.",
     name: "I am - ",
 
     contactMe: "Please feel free to contact me:",
@@ -46,8 +46,8 @@ const translations = {
       "I hope my introduction helped us get to know each other better and will encourage further cooperation.",
 
     edu: "Below you will find information about my education.",
-    edu1: "I got some experience with: HTML, CSS, Javascript, ReactJs, ExpressJs and MySQL. Using these skills, I have created this personal portfolio where I share the projects I have created.",
-    edu2: "I acquired a solid foundation in financial analysis and learned to use professional programs effectively. Thanks to these skills, I successfully secured a job that aligns with my field of expertise.",
+    edu1: 'I graduated from the non-formal education program "Programming", during which I gained solid skills in web programming, mobile application development, JavaScript, and front-end and back-end development. I also learned object-oriented programming using the Node.js environment. I have experience in HTML, CSS, JavaScript, ReactJs, ExpressJs and MySQL. Applying these skills, I have created this personal portfolio where I share the projects I have created.',
+    edu2: "I graduated from finance and internal audit studies of port and shipping companies, during which I gained solid foundations of financial analysis and learned how to effectively use professional software. Thanks to these acquired skills, I successfully got a job in my specialty, which allowed me to apply theoretical knowledge in practice and continue to improve in the professional field.",
     edu3: "I studied at a prestigious high school, where high-level teachers work, helping to develop strong, responsible and well-prepared students.",
 
     work0: "Below you will find information about my previous jobs and the skills I acquired there that contributed to my professional growth.",
@@ -98,9 +98,9 @@ const translations = {
     footerb:
       "Reikia nedaug, kad sukeltum šypseną, ir pakanka šypsenos, kad viskas taptų įmanoma. – Z. Sesbronas",
 
-    welcome: "Sveiki atvykę",
+    welcome: "",
     description:
-      "į mano kūrybinį pasaulį! Kiekvienas projektas čia yra dalis mano kelionės, ir aš džiaugiuosi, kad dabar esate jos dalis.",
+      "Sveiki atvykę į mano kūrybinį pasaulį! Kiekvienas projektas čia yra dalis mano kelionės, ir aš džiaugiuosi, kad dabar esate jos dalis.",
     name: "Aš esu - ",
 
     contactMe: "Maloniai kviečiu susisiekti su manimi:",
@@ -129,10 +129,11 @@ const translations = {
       "Tikiuosi, mano prisistatymas padėjo mums geriau vieniems kitus pažinti ir skatins tolesnį bendradarbiavimą.",
 
     edu: "Žemiau rasite informaciją apie mano išsilavinimą",
-    edu1: "Įgavau patirties su: HTML, CSS, Javascript, ReactJs, ExpressJs ir MySQL. Pasitelkdama šiuos įgūdžius, sukūriau šį asmeninį portfolio, kuriame dalinuosi savo sukurtais projektais.",
-    edu2: "Įgijau tvirtus finansų analizės pagrindus ir išmokau efektyviai naudotis profesinėmis programomis. Šių įgūdžių dėka sėkmingai radau darbą, atitinkantį mano specialybę.",
+    edu1: 'Baigiau neformaliojo švietimo programą "Programavimas", kurios metu įgijau tvirtus įgūdžius žiniatinklio programavimo, mobiliųjų aplikacijų kūrimo, JavaScript bei front-end ir back-end kūrimo srityse. Taip pat išmokau objektinio programavimo naudojant Node.js aplinką. Esu sukaupusi patirties dirbant su HTML, CSS, JavaScript, ReactJs, ExpressJs ir MySQL. Pritaikydama šiuos įgūdžius, sukūriau šį asmeninį portfolio, kuriame dalinuosi savo sukurtais projektais. ',
+    edu2: "Baigiau uosto ir laivybos įmonių finansų, vidaus audito studijas, kurių metu įgijau tvirtus finansų analizės pagrindus ir išmokau efektyviai naudotis profesinėmis programomis. Šių įgytų įgūdžių dėka sėkmingai įsidarbinau pagal specialybę, kas leido pritaikyti teorines žinias praktikoje ir toliau tobulėti profesinėje srityje.",
     edu3: "Mokiausi prestižinėje gimnazijoje, kurioje dirba aukšto lygio mokytojai, padedantys ugdyti stiprius, atsakingus ir puikiai pasiruošusius moksleivius.",
-
+   
+    
     work0: "Žemiau rasite informaciją apie mano ankstesnes darbovietes ir jose įgytus įgūdžius, kurie prisidėjo prie mano profesinio augimo.",
     work1: "Finansų analitikė",
     work2:
