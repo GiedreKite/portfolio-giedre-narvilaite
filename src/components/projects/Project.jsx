@@ -5,11 +5,12 @@ import style from './Project.module.css';
 import { ThemeContext } from '../themeContext/ThemeContext.jsx';
 import '../../App.css'
 import { LanguageContext } from '../language/LanguageContext.jsx';
-import Photo from '../photo/Photo.jsx';
+
 import hangmen from './hangmen.svg';
 import playGame from './playGame.jpg';
 import hangGame from './hangGame.png';
 import Footer from '../footer/Footer.jsx';
+import Photo from '../photo/Photo.jsx';
 
 // import photo from './photo.jpg'
 
