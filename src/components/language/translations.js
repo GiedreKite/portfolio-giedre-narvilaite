@@ -74,9 +74,10 @@ const translations = {
     workskill6: 'While studying in this field, I learned to independently search for the necessary documentation, follow the news and constantly improve as a specialist. As the tax system changes rapidly, the ability to adapt and keep up with innovation is critical.',
     workskill7: "During my studies, I gained valuable skills that fostered curiosity, a broad worldview, and an openness to innovation. The school's high standards and strict discipline helped to firmly develop these qualities and achieve the set goals.",
     
-    pro: "On this page, I want to share the projects and web pages that I have created with the help of the accumulated knowledge. I invite you to rate, try and have a pleasant browsing experience.",
+    pro: "On this page, I want to share the projects and web pages that I have created with the help of the accumulated knowledge. I invite you to rate and try.",
+    pro01: "",
     pro1: "I created the game Hanger, inspired by the horror movie Saw. I used the React library and the results are stored in LocalStorage so players can track their achievements. The game design is responsive, so it can be played comfortably on both PC and mobile devices. Just click the link to start the game and enjoy right away.",
-    pro2: "",
+    pro2: "I created a Tic-Tac-Toe game using DOM and HTML knowledge and integrated local storage functionality to conveniently track wins and losses. I uploaded the project to the Git platform so that you can try the game at any time and have fun in your spare time.",
     pro3: "",
     pro4: "",
     pro5: "",
@@ -160,9 +161,11 @@ const translations = {
     workskill5: 'Šiame darbe tobulinau savo jau įgytas kompetencijas, kruopštų darbą su dokumentacija ir gebėjimą pastebėti smulkmenas. Taip pat lavinau efektyvų komandinį darbą ir strateginį darbo planavimą, nes tikslumas ir išankstinis planavimas yra pagrindiniai veiksniai, užtikrinantys sėkmę.',
     workskill6: 'Studijuodama šioje srityje išmokau savarankiškai ieškoti reikalingos dokumentacijos, sekti naujienas bei nuolat tobulėti kaip specialistė. Kadangi mokesčių sistema sparčiai keičiasi, gebėjimas prisitaikyti ir neatsilikti nuo naujovių yra itin svarbus.',
     workskill7: 'Mokydamasi įgijau vertingų įgūdžių, kurie skatino žingeidumą, plačią pasaulėžiūrą ir atvirumą naujovėms. Aukšti mokyklos standartai bei griežta disciplina padėjo tvirtai išsiugdyti šias savybes ir pasiekti užsibrėžtų tikslų.',
-    pro: "Šiame puslapyje noriu pasidalinti savo sukurtais projektais ir tinklalapiais, kuriuos kūriau pasitelkdama sukauptas žinias. Kviečiu įvertinti, išbandyti ir patirti malonią naršymo patirtį.",
+    pro: "Šiame puslapyje noriu pasidalinti savo sukurtais projektais ir tinklalapiais, kuriuos kūriau pasitelkdama sukauptas žinias. Kviečiu įvertinti ir išbandyti.",
+    pro01: "",
+
     pro1: "Sukūriau žaidimą „Pakaruoklis“, įkvėptą siaubo filmo „Pjūklas“. Naudojau React biblioteką, o rezultatai yra saugomi LocalStorage, kad žaidėjai galėtų sekti savo pasiekimus. Žaidimo dizainas yra responsyvus, todėl jį galima patogiai žaisti tiek kompiuteryje, tiek mobiliuosiuose įrenginiuose. Norėdami pradėti žaidimą, tiesiog spustelėkite nuorodą ir mėgaukitės iškart.",
-    pro2: "",
+    pro2: " Sukūriau žaidimą „Tik-Tac-Toe“, pasitelkdama DOM ir HTML žinias, o local storage funkcionalumą integravau tam, kad būtų galima patogiai sekti pergales ir pralaimėjimus. Projektą įkėliau į Git platformą, kad galėtumėte bet kuriuo metu išbandyti žaidimą ir smagiai praleisti laisvalaikį.",
   },
 };
 

@@ -1,200 +1,197 @@
-/* @font-face {
-    font-family: "MyFont";
-    src: url(./SellenaBrush-x3JyK.ttf)
+/* main{
+    background: url(http://localhost:5173/back.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    height: 100%;
 } */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-html,
-body {
-  width: 100%;
-  scroll-behavior: smooth;
-}
-
-.name {
-  padding: 6rem;
-  padding-top: 5rem;
-  padding-bottom: 0;
-  margin: 5rem;
-  height: auto;
+.center {
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-wrap: wrap;
+}
+
+main {
+  padding-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  /* Align items vertically center */
+  gap: 20px;
+  /* Space between image and text */
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  /* Flexbox layout for placing image and text side by side */
+  align-items: center;
+  /* Align items vertically center */
+  gap: 1rem;
+  /* Space between image and text */
+  padding: 1rem;
+}
+
+
+.textConteiner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.textY {
+  font-size: 2rem;
+  padding: 2rem;
+}
+
+.textG {
+  font-size: 2rem;
+  padding: 2rem;
+}
+
+.textY:hover {
+  color: yellow;
+  box-shadow: 0 5px 4px -4px yellow;
+  background: rgba(0, 0, 0, 0.222);
+  backdrop-filter: blur(1000px);
+  border-radius: 10%;
+}
+
+.textG:hover {
+  color: #4CAF50;
+  background: rgba(254, 254, 254, 0.222);
+  backdrop-filter: blur(1000px);
+  border-radius: 10%;
+  box-shadow: 0 5px 4px -4px #4CAF50;
+
+
+}
+
+.containerMe {
+  padding-top: 3rem;
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   font-size: 2rem;
 }
 
-html {
-  scroll-behavior: smooth;
-}
 
-.section1 {
-
-  color: black;
-  min-height: 100vh;
-  min-width: 100vh;
-  padding: 3rem;
-
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 3rem;
-}
-
-.card {
-  height: 38rem;
-  width: 28rem;
-  margin: 2rem;
-
-  position: relative;
-
-  perspective: 90rem;
-}
-
-
-.cb,
-.cf {
-  border: 1px solid #4CAF50;
-  height: 30rem;
-  width: 28rem;
-  border-radius: 20px;
-
-  position: absolute;
-  top: 0;
-  left: 0;
-  backface-visibility: hidden;
-  box-shadow: 0 0 0 2px white, 0 0 0 4px rgba(255, 255, 0, 0.612);
-
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  font-family: 'MyFont';
-  font-size: 1.25rem;
-  font-weight: 900;
+.welcome {
+  font-family: "Signika Negative", sans-serif;
+  color: yellow;
   padding: 2rem;
-
-  transition: all 0.99s ease;
-
 }
 
-.cf {
-  background: rgba(0, 0, 0, 0.144);
-  /* background-image: linear-gradient(to right, rgba(255, 255, 0, 0.126), #4caf4f20); */
-  backdrop-filter: blur(100px);
-  box-shadow: 0 8px 32px rgba(255, 255, 0, 0.447);
-
+.description {
+  font-family: "Signika Negative", sans-serif;
   color: #4CAF50;
+  padding: 2rem;
+}
 
+
+
+.img {
+  flex: 1;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.text {
+  flex: 2;
+}
+
+.text h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.text-container p {
+  font-size: 8rem;
+  justify-content: space-around;
+  word-spacing: 2rem;
+}
+
+
+.aline {
+  display: flex;
 
 }
 
-p {
-  font-size: 1.5rem;
+
+.slidein {
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: 3;
+  animation-direction: alternate;
 }
 
-.cb {
-  background-color: black;
-  transform: rotateY(180deg);
-  color: yellow;
-
+@keyframes slidein {
+  from {
+    translate: 150vw 0;
+    scale: 200% 1;
+  }
 }
 
-.card:hover .cf {
-  transform: rotateY(180deg);
-  color: yellow;
-
-}
-
-.card:hover .cb {
-  transform: rotateY(0deg);
-
-}
-
-.name:hover {
-  background: rgba(254, 254, 254, 0.222);
-  backdrop-filter: blur(1000px) !important;
-  border-radius: 10%;
-  box-shadow: 0 3px 2px -2px #4CAF50 !important;
-}
 
 @media (max-width: 1200px) {
-
-  .card,
-  .cf,
-  .cb {
-    height: 30rem;
-    width: 28rem;
-  }
-
-  .section1 {
-    padding: 2rem;
-    gap: 2rem;
-    min-width: 100vh;
-  }
-
   p {
-    font-size: 1rem;
+    font-size: 1.5rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .img {
+    max-height: 50%;
   }
 }
 
 
 
 @media (max-width: 768px) {
+  p {
+    font-size: 1.5rem;
+  }
 
-  .card,
-  .cf,
-  .cb {
-    height: 35rem;
-    width: 20rem;
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .textY,
+  .textG {
     font-size: 0.5rem;
-  }
-
-  .section1 {
     padding: 0.25rem;
-    gap: 2rem;
-    min-width: 100vh;
   }
 
+  .container {
+    gap: 0.15rem;
+    padding: 0.15rem;
+  }
+
+}
+
+@media (max-width: 368px) {
   p {
     font-size: 1rem;
   }
 
-  .name {
-    font-size: 1.55rem;
-
+  h1 {
+    font-size: 1rem;
   }
 
-  .name:hover {
-    background: rgba(254, 254, 254, 0.222);
-    backdrop-filter: blur(1000px) !important;
-    border-radius: 10%;
-    box-shadow: 0 3px 2px -2px #4CAF50 !important;
-  }
-}
-
-@media (max-width: 368px) {
-
-  .card,
-  .cf,
-  .cb {
-    height: 35rem;
-    width: 20rem;
-    font-size: 0.5rem;
-  }
-
-  .section1 {
+  .container {
+    gap: 0.15rem;
     padding: 0.15rem;
-    gap: 1rem;
-    min-width: 100vh;
   }
 
-  .name {
-    font-size: 0.75rem;
-
+  .textY,
+  .textG {
+    font-size: 0.5rem;
+    padding: 0.25rem;
   }
 }

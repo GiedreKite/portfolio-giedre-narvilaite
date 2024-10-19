@@ -1,7 +1,6 @@
 /* Basic styling for the button */
 .animatedBtn {
-  background-color: #4CAF50;
-  /* Initial background color */
+
   color: rgb(0, 0, 0);
   /* Text color */
 
@@ -16,9 +15,10 @@
   overflow: hidden;
   /* Hide overflow */
   transition: background-color 0.5s ease, filter 0.5s ease;
-  background-image: linear-gradient(to right, yellow, #4CAF50);
+  background-image: linear-gradient(to right, #7e7e7e9c, rgb(255, 255, 255));
   padding: 0.25rem 0.5rem;
   font-size: 500;
+  color: black;
   margin: 1rem;
   box-shadow: 0 0 0 0.5px white, 0 0 0 2px #4caf4fae;
   outline: none;
@@ -36,8 +36,7 @@
   /* Start the element off-screen to the right */
   width: 100%;
   height: 100%;
-  background-color: #4CAF50;
-  ;
+  background-color: rgb(255, 255, 255);
   /* New background color on hover */
   transition: right 0.4s ease;
   /* Control the speed of the animation */
@@ -55,8 +54,9 @@
 /* Ensure the text stays on top */
 .animatedBtn:hover {
   color: black;
-  box-shadow: 0 0 0 0.5px white, 0 0 0 2px rgba(255, 255, 0, 0.612);
-  background-color: rgba(255, 255, 0, 0.612);
+  box-shadow: 0 0 0 0.5px white, 0 0 0 2px #4CAF50;
+  ;
+  background-color: #4CAF50;
 
 }
 

@@ -15,7 +15,7 @@
   overflow: hidden;
   /* Hide overflow */
   transition: background-color 0.5s ease, filter 0.5s ease;
-  background-image: linear-gradient(to right, #a9b0a9, rgb(255, 255, 255));
+  background-image: linear-gradient(to right, #7e7e7e9c, rgb(255, 255, 255));
   padding: 0.25rem 0.5rem;
   font-size: 500;
   color: black;

@@ -1,72 +1,84 @@
-
-  
-  /* Basic styling for the button */
+/* Basic styling for the button */
 .animatedBtn {
-    
-    color: rgb(0, 0, 0);              /* Text color */
-    
-    font-size: 500;           /* Font size */
-    border-radius: 5px;        /* Rounded corners */
-    cursor: pointer;           /* Pointer cursor on hover */
-    position: relative;        /* For using pseudo-elements */
-    overflow: hidden;          /* Hide overflow */
-    transition: background-color 0.5s ease, filter 0.5s ease; 
-    background-image: linear-gradient(to right, #122a13,  rgb(0, 0, 0));
+
+  color: rgb(0, 0, 0);
+  /* Text color */
+
+  font-size: 500;
+  /* Font size */
+  border-radius: 5px;
+  /* Rounded corners */
+  cursor: pointer;
+  /* Pointer cursor on hover */
+  position: relative;
+  /* For using pseudo-elements */
+  overflow: hidden;
+  /* Hide overflow */
+  transition: background-color 0.5s ease, filter 0.5s ease;
+  background-image: linear-gradient(to right, #7e7e7e9c, rgb(255, 255, 255));
   padding: 0.25rem 0.5rem;
   font-size: 500;
-  color: white;
+  color: black;
   margin: 1rem;
   box-shadow: 0 0 0 0.5px white, 0 0 0 2px #4caf4fae;
   outline: none;
   position: relative;
   z-index: 1;
+}
+
+/* Pseudo-element for the color-changing effect */
+.animatedBtn::before {
+  content: "";
+  position: absolute;
+  color: rgb(0, 0, 0);
+  top: 0;
+  right: 100%;
+  /* Start the element off-screen to the right */
+  width: 100%;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  /* New background color on hover */
+  transition: right 0.4s ease;
+  /* Control the speed of the animation */
+  z-index: -1;
+  /* Send the element behind the text */
+}
+
+/* Hover effect: move the background from right to left */
+.animatedBtn:hover::before {
+  right: 0;
+  color: black;
+  /* Move the background in from the right */
+}
+
+/* Ensure the text stays on top */
+.animatedBtn:hover {
+  color: black;
+  box-shadow: 0 0 0 0.5px white, 0 0 0 2px #4CAF50;
+  ;
+  background-color: #4CAF50;
+
+}
+
+/* Position the text relative to the button */
+.animatedBtn span {
+  position: relative;
+  z-index: 1;
+  color: black;
+}
+
+@media (max-width: 1200px) {
+  .animatedBtn {
+    font-size: 0.75rem;
+    margin: 0.75rem;
+    padding: 0.15rem 0.2rem;
   }
-  
-  /* Pseudo-element for the color-changing effect */
-  .animatedBtn::before {
-    content: "";
-    position: absolute;
-    color: white;
-    top: 0;
-    right: 100%;               /* Start the element off-screen to the right */
-    width: 100%;
-    height: 100%;
-    background-color: rgb(0, 0, 0); /* New background color on hover */
-    transition: right 0.4s ease; /* Control the speed of the animation */
-    z-index: -1;                /* Send the element behind the text */
+}
+
+@media (max-width: 768px) {
+  .animatedBtn {
+    font-size: 0.75rem;
+    margin: 0.5rem;
+    padding: 0.1rem 0.15rem;
   }
-  
-  /* Hover effect: move the background from right to left */
-  .animatedBtn:hover::before {
-    right: 0;   
-    color: black;                 /* Move the background in from the right */
-  }
-  
-  /* Ensure the text stays on top */
-  .animatedBtn:hover {
-    color: white;
-    box-shadow: 0 0 0 0.5px white, 0 0 0 2px  #4CAF50;;
-    background-color:  #4CAF50;     
-   
-  }
-  
-  /* Position the text relative to the button */
-  .animatedBtn span {
-    position: relative;
-    z-index: 1;
-    color: black;  
-  }
-  @media (max-width: 1200px) {
-   .animatedBtn{
-      font-size: 0.75rem;
-      margin: 0.75rem;
-      padding: 0.15rem 0.2rem;
-    }
-    }
-    @media (max-width: 768px) {
-      .animatedBtn{
-         font-size: 0.75rem;
-         margin: 0.5rem;
-         padding: 0.1rem 0.15rem;
-       }
-       }
+}
