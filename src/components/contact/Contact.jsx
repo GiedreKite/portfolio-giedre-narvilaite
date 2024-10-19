@@ -2,9 +2,8 @@ import React, { useContext, useState, useEffect } from 'react';
 import { LanguageContext } from '../language/LanguageContext';
 
 import style from './Contact.module.css';
-import git from './git.png'
 import link from './link.svg'
-import gitH from './github.png'
+import git from './github.png'
 import gitW from './gitW.svg'
 import linkedin from './linkedin.svg'
 import Header from '../header/Header';
