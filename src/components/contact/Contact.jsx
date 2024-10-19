@@ -4,9 +4,9 @@ import { LanguageContext } from '../language/LanguageContext';
 import style from './Contact.module.css';
 import git from './git.png'
 import link from './link.svg'
-import gitH from './gitHub.svg'
+import gitH from './github.png'
 import gitW from './gitW.svg'
-import linkedin from './linkedin.png'
+import linkedin from './linkedin.svg'
 import Header from '../header/Header';
 import Photo from '../photo/Photo';
 import Footer from '../footer/Footer';
