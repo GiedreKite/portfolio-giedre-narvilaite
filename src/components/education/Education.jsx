@@ -39,7 +39,7 @@ const Education = () => {
             </div>
             <div className={ style.timelineRight }>
               <p>{ translations[language].edu1 }
-                <Link to="/project" className={ style.link }>   { translations[language].projects }</Link>
+                <Link to="/portfolio-giedre-narvilaite/project" className={ style.link }>   { translations[language].projects }</Link>
               </p>
               <p> { translations[language].workskill3 } </p>
             </div>
